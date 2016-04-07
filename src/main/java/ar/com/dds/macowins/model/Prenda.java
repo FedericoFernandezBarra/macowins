@@ -1,20 +1,17 @@
 package ar.com.dds.macowins.model;
 
 public abstract class Prenda {
-	protected abstract double precioBase();
 	private Negocio negocio;
-	private Boolean importada;
+	private Origen origen;
 	
-	public Prenda(Negocio negocio, Boolean importada){
+	protected abstract double precioBase();
+	
+	public Prenda(Negocio negocio, Origen origen){
 		this.negocio = negocio;
-		this.importada = importada;
+		this.origen = origen;
 	}
 	
 	public double precioFinal(){
-		return (precioBase() + negocio.getValorFijo()) * tasaDeImportacion();
-	}
-
-	public double tasaDeImportacion(){
-		return importada? 1.3 : 1;
+		return (this.precioBase() + this.negocio.getValorFijo()) * this.origen.tasaDeImportacion();
 	}
 }

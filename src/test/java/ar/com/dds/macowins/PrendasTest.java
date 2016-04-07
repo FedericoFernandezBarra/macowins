@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import ar.com.dds.macowins.model.Camisa;
+import ar.com.dds.macowins.model.Internacional;
+import ar.com.dds.macowins.model.Nacional;
 import ar.com.dds.macowins.model.Negocio;
 import ar.com.dds.macowins.model.Pantalon;
 import ar.com.dds.macowins.model.Saco;
@@ -15,14 +17,18 @@ public class PrendasTest {
 	Camisa camisaMangaLarga;
 	Pantalon jeanAzulGrande;
 	Saco sacoNegroMediano;
+	Internacional china;
+	Nacional argentina;
 
 
 	@Before
 	public void inicializar() {
 		tiendaDeRopa1 = new Negocio(50);
-		camisaMangaLarga = new Camisa(tiendaDeRopa1, true);
-		jeanAzulGrande = new Pantalon(tiendaDeRopa1, true);
-		sacoNegroMediano = new Saco(tiendaDeRopa1, false);
+		argentina = new Nacional();
+		china = new Internacional();
+		camisaMangaLarga = new Camisa(tiendaDeRopa1, china);
+		jeanAzulGrande = new Pantalon(tiendaDeRopa1, china);
+		sacoNegroMediano = new Saco(tiendaDeRopa1, argentina);
 	}
 	
 	

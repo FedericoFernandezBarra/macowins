@@ -1,8 +1,8 @@
 package ar.com.dds.macowins.model;
 
 public class Saco extends Prenda {
-	public Saco(Negocio negocio, Boolean importada){
-		super(negocio, importada);
+	public Saco(Negocio negocio, Origen origen){
+		super(negocio, origen);
 	}
 	
 	@Override

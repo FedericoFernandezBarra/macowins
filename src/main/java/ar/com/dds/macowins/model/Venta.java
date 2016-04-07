@@ -23,6 +23,10 @@ public class Venta {
 		prendasVendidas.add(prenda);
 	}
 	
+	public void sacarPrenda(Prenda prenda){
+		prendasVendidas.remove(prenda);
+	}
+	
 	public double ganancia(){
 		return prendasVendidas.stream().mapToDouble(prenda -> prenda.precioFinal()).sum();
 	}
