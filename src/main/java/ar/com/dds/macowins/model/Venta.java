@@ -1,10 +1,10 @@
 package ar.com.dds.macowins.model;
 
+import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 public class Venta {
-	private List<Prenda> prendasVendidas;
+	private ArrayList<Prenda> prendasVendidas = new ArrayList<Prenda>();
 	private Date fecha;
 	
 	public Venta(Date fecha){
