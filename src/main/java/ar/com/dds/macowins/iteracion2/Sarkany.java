@@ -1,6 +1,6 @@
 package ar.com.dds.macowins.iteracion2;
 
-public class Sarkany extends Marca {
+public class Sarkany implements Marca {
 	@Override
 	public double coeficiente(double precioOriginal) {
 		if(precioOriginal > 500)
