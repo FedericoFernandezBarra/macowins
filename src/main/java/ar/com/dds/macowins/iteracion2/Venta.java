@@ -30,4 +30,8 @@ public class Venta {
 	public double ganancia(){
 		return prendasVendidas.stream().mapToDouble(prenda -> prenda.precioFinal()).sum();
 	}
+	
+	public Boolean esDeFecha(Date fecha){
+		return this.fecha.equals(fecha);
+	}
 }

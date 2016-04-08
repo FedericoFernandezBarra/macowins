@@ -23,6 +23,8 @@ import ar.com.dds.macowins.iteracion2.Zapatos;
 
 public class VentasTest {
 	Venta ventaDia1;
+	Venta otraVentaDia1;
+	Venta ventaDia2;
 	Negocio tiendaDeRopa1;
 	Camisa camisaMangaLarga;
 	Pantalon jeanAzulGrande;
@@ -43,7 +45,6 @@ public class VentasTest {
 		china = new Internacional();
 		sarkanyDeArgentina = new Sarkany();
 		armaniDeChina = new Armani();
-			
 		camisaMangaLarga = new Camisa(tiendaDeRopa1, china, armaniDeChina);
 		jeanAzulGrande = new Pantalon(tiendaDeRopa1, china, armaniDeChina, 52.5);
 		sacoNegroMediano = new Saco(tiendaDeRopa1, argentina, sarkanyDeArgentina, 3);
@@ -58,6 +59,13 @@ public class VentasTest {
 		ventaDia1.agregarPrenda(mocasines);
 		ventaDia1.agregarPrenda(fedora);
 		ventaDia1.sacarPrenda(fedora);
+		otraVentaDia1 = new Venta(formatoDeFecha.parse("08/04/2016"));
+		otraVentaDia1.agregarPrenda(camisaMangaLarga);
+		ventaDia2 = new Venta(formatoDeFecha.parse("09/04/2016"));
+		ventaDia2.agregarPrenda(sacoNegroMediano);
+		tiendaDeRopa1.agregarVenta(ventaDia1);
+		tiendaDeRopa1.agregarVenta(otraVentaDia1);
+		tiendaDeRopa1.agregarVenta(ventaDia2);	
 	}
 	
 	
@@ -65,7 +73,17 @@ public class VentasTest {
 	// ganancia = 536.25 + 756.1125 +  418.00000000000006 + 1458.6 + 904.5000000000001
 	// ganancia = 4073.4625
 	@Test
-	  public void testearCamisa() {
+	  public void testearGananciaDeUnaVenta() {
 		  assertEquals((Double)4073.4625, (Double)ventaDia1.ganancia());
+	  }
+	
+	
+	// ganancia = ventaDia1 + otraVentaDia1
+	// ganacia = camisaMangaLarga + jeanAzulGrande + jeanAzulGrande + jeanAzulGrande + sacoNegroMediano + camisaMangaLarga
+	// ganancia = 536.25 + 756.1125 +  418.00000000000006 + 1458.6 + 904.5000000000001 + 536.25
+	// ganancia = 4609.7125
+	@Test
+	  public void testearGananciaDeUnDia() throws ParseException {
+		  assertEquals((Double)4609.7125, (Double)tiendaDeRopa1.gananciasDelDia(formatoDeFecha.parse("08/04/2016")));
 	  }
 }
