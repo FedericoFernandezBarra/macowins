@@ -1,4 +1,4 @@
-package ar.com.dds.macowins.model;
+package ar.com.dds.macowins.interaccion1;
 
 import java.util.ArrayList;
 import java.util.Date;

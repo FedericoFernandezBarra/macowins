@@ -1,4 +1,4 @@
-package ar.com.dds.macowins;
+package ar.com.dds.macowins.interaccion1;
 
 import static org.junit.Assert.*;
 
@@ -9,13 +9,13 @@ import java.text.SimpleDateFormat;
 import org.junit.Before;
 import org.junit.Test;
 
-import ar.com.dds.macowins.model.Camisa;
-import ar.com.dds.macowins.model.Internacional;
-import ar.com.dds.macowins.model.Nacional;
-import ar.com.dds.macowins.model.Negocio;
-import ar.com.dds.macowins.model.Pantalon;
-import ar.com.dds.macowins.model.Saco;
-import ar.com.dds.macowins.model.Venta;
+import ar.com.dds.macowins.interaccion1.Camisa;
+import ar.com.dds.macowins.interaccion1.Internacional;
+import ar.com.dds.macowins.interaccion1.Nacional;
+import ar.com.dds.macowins.interaccion1.Negocio;
+import ar.com.dds.macowins.interaccion1.Pantalon;
+import ar.com.dds.macowins.interaccion1.Saco;
+import ar.com.dds.macowins.interaccion1.Venta;
 
 public class VentasTest {
 	Venta ventaDia1;

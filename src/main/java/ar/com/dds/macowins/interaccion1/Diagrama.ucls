@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="ar.com.dds.macowins.model.Camisa" project="macowins" 
-    file="/macowins/src/main/java/ar/com/dds/macowins/model/Camisa.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="ar.com.dds.macowins.interaccion1.Camisa" project="macowins" 
+    file="/macowins/src/main/java/ar/com/dds/macowins/interaccion1/Camisa.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="710" y="426"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="ar.com.dds.macowins.model.Negocio" project="macowins" 
-    file="/macowins/src/main/java/ar/com/dds/macowins/model/Negocio.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="ar.com.dds.macowins.interaccion1.Negocio" project="macowins" 
+    file="/macowins/src/main/java/ar/com/dds/macowins/interaccion1/Negocio.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="190" y="89"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="ar.com.dds.macowins.model.Pantalon" project="macowins" 
-    file="/macowins/src/main/java/ar/com/dds/macowins/model/Pantalon.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="ar.com.dds.macowins.interaccion1.Pantalon" project="macowins" 
+    file="/macowins/src/main/java/ar/com/dds/macowins/interaccion1/Pantalon.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="916" y="428"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="ar.com.dds.macowins.model.Prenda" project="macowins" 
-    file="/macowins/src/main/java/ar/com/dds/macowins/model/Prenda.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="ar.com.dds.macowins.interaccion1.Prenda" project="macowins" 
+    file="/macowins/src/main/java/ar/com/dds/macowins/interaccion1/Prenda.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="530" y="77"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="ar.com.dds.macowins.model.Saco" project="macowins" 
-    file="/macowins/src/main/java/ar/com/dds/macowins/model/Saco.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="ar.com.dds.macowins.interaccion1.Saco" project="macowins" 
+    file="/macowins/src/main/java/ar/com/dds/macowins/interaccion1/Saco.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="505" y="427"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,8 +46,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="ar.com.dds.macowins.model.Internacional" project="macowins" 
-    file="/macowins/src/main/java/ar/com/dds/macowins/model/Internacional.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="ar.com.dds.macowins.interaccion1.Internacional" project="macowins" 
+    file="/macowins/src/main/java/ar/com/dds/macowins/interaccion1/Internacional.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="98" y="428"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,8 +56,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="ar.com.dds.macowins.model.Nacional" project="macowins" 
-    file="/macowins/src/main/java/ar/com/dds/macowins/model/Nacional.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="ar.com.dds.macowins.interaccion1.Nacional" project="macowins" 
+    file="/macowins/src/main/java/ar/com/dds/macowins/interaccion1/Nacional.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="298" y="431"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -64,8 +65,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="ar.com.dds.macowins.model.Venta" project="macowins" 
-    file="/macowins/src/main/java/ar/com/dds/macowins/model/Venta.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="8" language="java" name="ar.com.dds.macowins.interaccion1.Venta" project="macowins" 
+    file="/macowins/src/main/java/ar/com/dds/macowins/interaccion1/Venta.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="866" y="109"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      

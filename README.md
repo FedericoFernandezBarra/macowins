@@ -20,3 +20,26 @@ El precio base, es un precio bruto de cada prenda, por lo que depende exclusivam
 La tasa de importación es de un 30%, que aplica si y sólo si, obviamente, la prenda es importada: si es nacional, la tasa no afecta al precio final.
 
 Ah, un requerimiento más: MacoWins registra las ventas de estas prendas y necesita tener control sobre las ganancias de un determinado día. Cada venta tiene asociada la prenda que se vendió, su cantidad y la fecha de venta.
+
+--------------------------------------------------------------
+
+Segunda Iteración
+
+Tras una llamada del analista, pudimos entender, que es necesario incluir en la fórmula un factor más: la marca:
+
+Precio Final =  (V. Fijo + P. Base) x T. Importación  x Coeficiente de la Marca
+
+Cada marca, nos comunica su política de precios. Se deben implementar las siguientes políticas:
+
+Armani: Siempre agrega un 65% del valor del precio original del producto
+Sarkany: Si el precio original del producto es mayor a $500, agrega un 35%, si es menor, agrega un 10%
+
+Se requiere además, que puedan agregarse políticas de marcas fácilmente, y que no sea difícil modificar las existentes
+
+
+También cambia la forma de calcular el precio base de algunas prendas y se agregan otras:
+
+Pantalón: $250 + ($1 por cm2 de tela usada en el mismo).
+Saco: $300 + (10$ por la cantidad de botones).
+Zapatos: $400 + ($5 por el talle).
+Sombrero: 150 * (1 + coeficiente de metrosexualidad) (depende del sombrero).

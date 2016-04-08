@@ -1,16 +1,16 @@
-package ar.com.dds.macowins;
+package ar.com.dds.macowins.interaccion1;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import ar.com.dds.macowins.model.Camisa;
-import ar.com.dds.macowins.model.Internacional;
-import ar.com.dds.macowins.model.Nacional;
-import ar.com.dds.macowins.model.Negocio;
-import ar.com.dds.macowins.model.Pantalon;
-import ar.com.dds.macowins.model.Saco;
+import ar.com.dds.macowins.interaccion1.Camisa;
+import ar.com.dds.macowins.interaccion1.Internacional;
+import ar.com.dds.macowins.interaccion1.Nacional;
+import ar.com.dds.macowins.interaccion1.Negocio;
+import ar.com.dds.macowins.interaccion1.Pantalon;
+import ar.com.dds.macowins.interaccion1.Saco;
 
 public class PrendasTest {
 	Negocio tiendaDeRopa1;
@@ -33,7 +33,7 @@ public class PrendasTest {
 	
 	
 	//Precio final = (base + negocio) * tasa
-	//Precio final = (200 + 50) * 1,3
+	//Precio final = (200 + 50) * 1.3
 	//Precio final = 325
 	@Test
 	  public void testearCamisa() {
@@ -56,5 +56,4 @@ public class PrendasTest {
 	  public void testearSaco() {
 		  assertEquals((Double)350.00, (Double)sacoNegroMediano.precioFinal());
 	  }
-
 }

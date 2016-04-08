@@ -1,4 +1,4 @@
-package ar.com.dds.macowins.model;
+package ar.com.dds.macowins.interaccion1;
 
 public class Nacional extends Origen{
 
