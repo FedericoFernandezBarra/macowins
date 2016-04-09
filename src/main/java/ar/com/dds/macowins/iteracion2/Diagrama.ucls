@@ -22,7 +22,7 @@
   <class id="3" language="java" name="ar.com.dds.macowins.iteracion2.Internacional" project="macowins" 
     file="/macowins/src/main/java/ar/com/dds/macowins/iteracion2/Internacional.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="757" y="34"/>    
+    <position height="-1" width="-1" x="752" y="20"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -40,7 +40,7 @@
   </class>  
   <class id="5" language="java" name="ar.com.dds.macowins.iteracion2.Origen" project="macowins" 
     file="/macowins/src/main/java/ar/com/dds/macowins/iteracion2/Origen.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="484" y="34"/>    
+    <position height="-1" width="-1" x="474" y="24"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -67,7 +67,7 @@
   </class>  
   <class id="8" language="java" name="ar.com.dds.macowins.iteracion2.Zapatos" project="macowins" 
     file="/macowins/src/main/java/ar/com/dds/macowins/iteracion2/Zapatos.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="322" y="536"/>    
+    <position height="-1" width="-1" x="313" y="559"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -76,7 +76,7 @@
   </class>  
   <class id="9" language="java" name="ar.com.dds.macowins.iteracion2.Pantalon" project="macowins" 
     file="/macowins/src/main/java/ar/com/dds/macowins/iteracion2/Pantalon.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="545" y="547"/>    
+    <position height="-1" width="-1" x="543" y="563"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -85,7 +85,7 @@
   </class>  
   <class id="10" language="java" name="ar.com.dds.macowins.iteracion2.Sombrero" project="macowins" 
     file="/macowins/src/main/java/ar/com/dds/macowins/iteracion2/Sombrero.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="781" y="547"/>    
+    <position height="-1" width="-1" x="798" y="548"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -112,7 +112,7 @@
   </class>  
   <class id="13" language="java" name="ar.com.dds.macowins.iteracion2.Prenda" project="macowins" 
     file="/macowins/src/main/java/ar/com/dds/macowins/iteracion2/Prenda.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="246" y="287"/>    
+    <position height="-1" width="-1" x="183" y="348"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -121,7 +121,7 @@
   </class>  
   <interface id="14" language="java" name="ar.com.dds.macowins.iteracion2.Marca" project="macowins" 
     file="/macowins/src/main/java/ar/com/dds/macowins/iteracion2/Marca.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="146" y="149"/>    
+    <position height="-1" width="-1" x="149" y="185"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
